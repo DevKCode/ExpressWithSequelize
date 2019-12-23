@@ -21,7 +21,7 @@ export class NodeController {
     public show(req: Request, res: Response) {
         let nodeId: any = req.params.id;
         NodeModel.findByPk<NodeModel>(nodeId)
-            .then((node: NodeModel | null) => {
+            .then((nddodee: NodeModel | null) => {
 
             })
     }
